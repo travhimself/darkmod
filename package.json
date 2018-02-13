@@ -1,0 +1,22 @@
+{
+    "name": "darkmod",
+    "displayName": "darkmod",
+    "description": "a modified version of vs code dark",
+    "version": "0.0.1",
+    "publisher": "trav",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "darkmod",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkmod-color-theme.json"
+            }
+        ]
+    }
+}
