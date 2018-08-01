@@ -131,6 +131,13 @@
 			}
 		},
 		{
+			"scope": "punctuation.definition.heading.markdown",
+			"settings":{
+				"foreground": "#999",
+				"fontStyle": "normal"
+			}
+		},
+		{
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic"
@@ -169,14 +176,36 @@
 			}
 		},
 		{
-			"scope": "string.other.link.title.markdown",
+			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#ffbe76"
+				"foreground": "#999"
+			}
+		},
+		{
+			"scope": "beginning.punctuation.definition.quote.markdown",
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"scope": "beginning.punctuation.definition.list.markdown",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"foreground": "#81ecec"
 			}
 		},
 		{
 			"scope": [
 				"markup.underline.link.markdown",
+				"meta.image.inline.markdown",
 				"punctuation.definition.italic.markdown",
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.string.begin.markdown",
@@ -187,18 +216,6 @@
 			],
 			"settings": {
 				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "beginning.punctuation.definition.quote.markdown",
-			"settings": {
-				"foreground": "#6ab04c"
-			}
-		},
-		{
-			"scope": "beginning.punctuation.definition.list.markdown",
-			"settings": {
-				"foreground": "#6796e6"
 			}
 		},
 		{
