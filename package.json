@@ -2,7 +2,7 @@
     "name": "darkmod",
     "displayName": "darkmod",
     "description": "a modified version of vs code dark",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "trav",
     "engines": {
         "vscode": "^1.20.0"

@@ -165,26 +165,26 @@
 			"scope": "markup.italic.markdown",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f6e58d"
+				"foreground": "#BCDC58"
 			}
 		},
 		{
 			"scope": "markup.bold.markdown",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#eeeeee"
+				"foreground": "#fff"
 			}
 		},
 		{
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#777"
 			}
 		},
 		{
 			"scope": "beginning.punctuation.definition.quote.markdown",
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#777"
 			}
 		},
 		{
